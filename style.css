@@ -12,12 +12,13 @@ nav {
   gap: 10%;
   justify-content: center;
   font-family: 'poppins', sans-serif;
+  background-color: white;
 }
 
 nav > button {
   background-color: transparent;
-  border: solid 1px white;
-  color: white;
+  border: solid 1px green;
+  color: green;
   border-radius: 3px;
   height:  45px
 }
@@ -52,8 +53,10 @@ header {
 .landing-img {
   position: absolute;
   width: 200px;
-  transform: translate(35rem, -400px);
+  top: 95%;
+  right: 65ch;
   border-radius: 10px;
+  border: solid 2px red;
 }
 
 .landing-img-sec {
